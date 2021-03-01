@@ -1,0 +1,22 @@
+{
+  "transactions":
+  [
+    {
+      "auth": false,
+      "category": "quick",
+      "httpMethod": "GET",
+      "uri": "/api/version"
+    },
+    {
+      "auth": true,
+      "category": "complex",
+      "httpMethod": "POST",
+      "uri": "/api/version",
+      "body": {
+        "content-type": "application/json",
+        "username" : "username",
+        "password" : "password"
+      }
+    }
+  ]
+}
